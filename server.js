@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 var jwt = require('jsonwebtoken');
 var cors = require('cors');
 
-var dataController = require('./server/controllers/data-controller');
 var authenticateController = require('./server/controllers/authenticate-controller');
 var categoryController = require('./server/controllers/category-controller');
 var budgetController = require('./server/controllers/budget-controller');
