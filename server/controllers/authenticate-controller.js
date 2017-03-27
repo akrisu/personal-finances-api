@@ -2,7 +2,6 @@ var jwt = require('jsonwebtoken');
 var bcrypt = require('bcrypt-nodejs');
 
 var User = require('./../models/user');
-var Person = require('./../models/person');
 
 module.exports.signIn = function(req, res) {
     if (!req.body.username || !req.body.password) {
